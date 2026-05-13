@@ -276,3 +276,14 @@
             - Vehicle Types (e.g., CAR, BIKE, TRUCK)
             - Directions (e.g., NORTH, SOUTH, EAST, WEST)
         - Enums can do more than just name constants. In many languages, each enum value can hold additional data and even define behavior. This makes them surprisingly powerful for modeling domain concepts.
+    - Interfaces
+        - object-oriented design, interfaces play a foundational role in building systems that are extensible, testable, and loosely coupled.
+        - They define what a component should do, not how it should do it.
+        - An interface is a contract
+        - An interface defines the "what", while classes provide the "how".
+        - Key properties of Interfaces
+            - Defines behavior without dictating implementation
+            - Enables polymorphism
+            - Promotes decoupling
+        - Interface based implementation helps in dependency injection implementation
+        - Payment gateway / Notification service with different behaviours can be easily implemented.
