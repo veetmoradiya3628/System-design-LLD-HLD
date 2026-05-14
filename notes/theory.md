@@ -329,3 +329,14 @@
             - Single inheritance
             - Multi-level inheritance
             - Hierarchical inheritance
+    - Polymorphism
+        - Polymorphism allows the same method name or interface to exhibit different behaviors depending on the object that is invoking it.
+        - Polymorphism lets you call the same method on different objects, and have each object respond in its own way.
+        - Why it matters
+            - Encourages loose coupling
+            - Enhances flexibility
+            - Promotes scalability
+            - Enables extensibility
+        - Compile-time polymorphism (method overloading)
+        - Runtime polymorphism (method overriding / dynamic dispatch)
+        - Polymorphism with Interfaces vs. Abstract classes
