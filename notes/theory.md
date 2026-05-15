@@ -347,3 +347,9 @@
         - Associated objects are loosely coupled and can exist independently of one another.
         - The association can be unidirectional or bidirectional, and can follow different multiplicity patterns (1-to-1, 1-to-many, etc.).
         - Multiplicity defines how many instances of one class can be associated with another. 
+    - Aggregation
+        - It’s a specialized, stronger form of association that models a "whole-part" relationship.
+        - Aggregation is a specialized form of association that models a whole-part relationship with loose ownership. One class (the "whole") contains references to other class objects (the "parts"), but the parts can exist independently of the whole.
+        - "has-a" relationship where the whole does not control the part's lifecycle.
+    - 
+
