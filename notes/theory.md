@@ -340,3 +340,10 @@
         - Compile-time polymorphism (method overloading)
         - Runtime polymorphism (method overriding / dynamic dispatch)
         - Polymorphism with Interfaces vs. Abstract classes
+- Class Relationships
+    - Association
+        - Association represents a relationship between two classes where one object uses, communicates with, or references another.
+        - Association reflects a "has-a" or "uses-a" relationship.
+        - Associated objects are loosely coupled and can exist independently of one another.
+        - The association can be unidirectional or bidirectional, and can follow different multiplicity patterns (1-to-1, 1-to-many, etc.).
+        - Multiplicity defines how many instances of one class can be associated with another. 
