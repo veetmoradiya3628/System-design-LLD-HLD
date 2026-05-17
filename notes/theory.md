@@ -473,3 +473,19 @@ Design Principles
         - Common in patterns like **Strategy, Decorator, Adapter, and Dependency Injection**.
         - Example: A `Car` object contains an `Engine` object instead of inheriting from `Engine`.
         - Modern architectures and clean code practices strongly favor composition-based design.
+SOLID
+    - Single Responsibility Principle (SRP)
+        - A class should have one, and only one, reason to change.
+        - A class should do one thing and do it well.
+        - Advantages
+            - Easier to read
+            - Easier to test
+            - Less brittle
+            - Easier to reuse
+            - Scales better
+        - Common pitfalls
+            - Over-splitting responsibilities
+            - Confusing methods with responsibilities
+            - Ignoring SRP in Small or utility classes
+        - SRP applied beyond class, to method, module, service and system
+        - 
