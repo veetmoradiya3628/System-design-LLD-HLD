@@ -526,3 +526,31 @@ SOLID
             - Violating Preconditions or Postconditions
             - Type Checks in Client Code
             - Restricting or Relaxing Behavior Unexpectedly
+    - Interface Segregation Principle (ISP)
+        - Clients should not be forced to depend on methods they do not use.
+        - Keep your interfaces focused. Each interface should represent a specific capability or behavior. If a class doesn’t need a method, it shouldn’t be forced to implement it.
+        - This is especially important in larger codebases with evolving requirements. The more methods an interface has, the more likely it is that a change to one method will ripple out into classes that have nothing to do with the change.
+        - Why it matters
+            - Increased Cohersion, Reduced Coupling
+            - Improved Flexibility & Reusability
+            - Better Code Readability & Maintainability
+            - Enhanced Testability
+            - Avoids "Interface Pollution" and LSP Violations
+        - Common pitfalls
+            - Over-segregation
+            - Not thinking from the client perspective
+            - Lack of cohersion
+    - Dependency Inversion Principle (DIP)
+        - High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g., interfaces).
+        - Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.
+        - Why does DIP matter
+            - Decoupling
+            - Flexibility and Extensibility
+            - Enhanced testability
+            - Improved maintenability
+            - Parallel development
+        - Issues
+            - Over-abstraction
+            - Leaky abstraction
+            - Interfaces Owned by Low-Level Modules
+            - No Actual Injection
