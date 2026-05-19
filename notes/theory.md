@@ -488,4 +488,27 @@ SOLID
             - Confusing methods with responsibilities
             - Ignoring SRP in Small or utility classes
         - SRP applied beyond class, to method, module, service and system
-        - 
+    - Open/closed Principle (OCP)
+        - Everytime you modify an existing class to add new functionality, you expose yourself to several dangers
+            - Introducing bugs
+            - Increased testing overhead
+            - Reduced readability
+            - Scalability issue
+        - Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
+        - Abstraction
+        - By programming against interfaces rather than concrete implementations, you can introduce new behavior simply by creating new classes that implement the existing interface. 
+        - Why it matters
+            - Improved maintainability
+            - Enhanced scalability
+            - Reduced risk
+            - Better testability
+            - Increased reusability
+            - Cleaner code
+        - Implementing OCP
+            - Define an interface
+            - Implement concrete strategies
+        - Common pitfalls
+            - Over-engineering
+            - Misinterpreting "closed for modification"
+            - Abstraction hell
+            - Forgetting the "Why"
